@@ -16,11 +16,11 @@ import sys
 
 sys.path.append("../GAAP")
 
-from GAAP.operations import Selector
-from GAAP.operations import Crossover
-from GAAP.operations import Mutator
-from GAAP.optimizer import GAAP
-from GAAP.model import WrappedModel
+from gaap.operations import Selector
+from gaap.operations import Crossover
+from gaap.operations import Mutator
+from gaap.optimizer import GAAP
+from gaap.model import WrappedModel
 
 mpl.rcParams["figure.dpi"] = 300
 plt.style.use("ieee")
